@@ -1,0 +1,119 @@
+<head>
+    <title> COS426 Assignment 4 &mdash; Animation &mdash; Writeup</title>
+    <link href="css/style.css" type="text/css" rel="stylesheet"/>
+</head>
+
+<body>
+    <script src="js/student.js"> </script>
+    <script src="js/writeup.js"> </script>
+    <div class="top">
+    <div class="main_div">
+
+        <h1> <div class=assignment>COS426 Assignment 4</div>Animation &mdash; Writeup</h1>
+        <div class='selectable'>
+        <h2 id='student'></h2>
+        
+        Features Implemented:
+<ul>
+<li>(1.0) <a href='#Euler'>Euler</a></li>
+<li>(1.0) <a href='#Sphere+source'>Sphere source</a></li>
+<li>(1.0) <a href='#Animated+mesh'>Animated mesh</a></li>
+<li>(1.0) <a href='#Ground+plane'>Ground plane</a></li>
+<li>(1.0) <a href='#Axis+box'>Axis box</a></li>
+<li>(1.0) <a href='#Sphere+collision'>Sphere collision</a></li>
+<li>(2.0) <a href='#Spring+system'>Spring system</a></li>
+<li>(3.0) <a href='#Your+system'>Your system</a></li>
+<li>(1.0) <a href='#Rendering'>Rendering</a></li>
+<li>(1.0) <a href='#Art'>Art</a></li>
+        </ul></div>
+
+1 late day used.
+<p><hr><p><a name='Euler'></a><h2>Euler</h2><p><hr><p>
+Updates velocity with gravity and attractor forces.<br>
+<br><a href='batch.html?system=attractor&texture=blank&blending=Normal&depthTest=true&transparent=true&sorting=true&size=full'>system=attractor&texture=blank&blending=Normal&depthTest=true&transparent=true&sorting=true&size=full</a>
+<br><img src='results/attractor1.png'><p>
+<br><img src='results/attractor2.png'>
+<br><br>
+
+<p><hr><p><a name='Sphere+source'></a><h2>Sphere source</h2><p><hr><p>
+Chooses points randomly on surface of the sphere using the process described in the lecture slides (uniform distribution over the surface of the sphere).
+<br>
+<br><a href='batch.html?system=basic&texture=blank&blending=Normal&depthTest=true&transparent=true&sorting=true&size=full'>system=basic&texture=blank&blending=Normal&depthTest=true&transparent=true&sorting=true&size=full</a>
+<br><img src='results/sphere1.png'><p>
+<br><img src='results/sphere2.png'>
+<br><br>
+
+<p><hr><p><a name='Animated+mesh'></a><h2>Animated mesh</h2><p><hr><p>
+Randomly selects a face and then randomly selects a position within that face to emit particles from an animated mesh.<br>
+<br><a href='batch.html?system=animated&texture=blank&blending=Normal&depthTest=true&transparent=true&sorting=true&size=full'>system=animated&texture=blank&blending=Normal&depthTest=true&transparent=true&sorting=true&size=full</a>
+<br><img src='results/horse1.png'><p>
+<br><img src='results/horse2.png'>
+<br><br>
+
+<p><hr><p><a name='Ground+plane'></a><h2>Ground plane</h2><p><hr><p>
+For the sink plane, I check to see if the particle is on the correct side of the normal of the plane. If not, the particle is killed. For the bounce plane, the particle's velocity vector is reflected across the plane normal so that the particle bounces when it hits the plane.<br><br>
+
+Sink plane:
+<br><a href='batch.html?system=fountainSink&texture=blank&blending=Normal&depthTest=true&transparent=true&sorting=true&size=full'>system=fountainSink&texture=blank&blending=Normal&depthTest=true&transparent=true&sorting=true&size=full</a>
+<br><img src='results/sinkPlane1.png'><p>
+<br><img src='results/sinkPlane2.png'>
+<br><br>
+
+Bounce plane:
+<br><a href='batch.html?system=fountainBounce&texture=blank&blending=Normal&depthTest=true&transparent=true&sorting=true&size=full'>system=fountainBounce&texture=blank&blending=Normal&depthTest=true&transparent=true&sorting=true&size=full</a>
+<br><img src='results/bouncePlane1.png'><p>
+<br><img src='results/bouncePlane2.png'>
+<br><br>
+
+<p><hr><p><a name='Axis+box'></a><h2>Axis box</h2><p><hr><p>
+The implementation is similar to the bounce and sink planes, except instead of checking for collision with the plane, I check to see if the particle is inside the min and max box boundaries. If the particle is within the box, I check to see which side of the box it came through, and reflect the particle's velocity vector across that plane's normal vector.
+<br><br>
+Sink (balls disappear when they hit stairs):
+<br><a href='batch.html?system=staircase2&texture=base&blending=Normal&depthTest=true&transparent=true&sorting=true&size=full'>system=staircase2&texture=base&blending=Normal&depthTest=true&transparent=true&sorting=true&size=full</a>
+<br><img src='results/stairsSink.png'><p>
+Inside the stairs:<br>
+<br><img src='results/insideStairs.png'>
+<br><br>
+
+Balls bouncing down stairs:
+<br><a href='batch.html?system=staircase&texture=sphere&blending=Normal&depthTest=true&transparent=true&sorting=true&size=full'>system=staircase&texture=sphere&blending=Normal&depthTest=true&transparent=true&sorting=true&size=full</a>
+<br><img src='results/stairs1.png'>
+<br><img src='results/stairs2.png'><p>
+
+<p><hr><p><a name='Sphere+collision'></a><h2>Sphere collision</h2><p><hr><p>
+If a particle is within radius distance to the center of the sphere, its velocity is set to 0.
+<br><br>
+See the images in "Spring system".
+
+<p><hr><p><a name='Spring+system'></a><h2>Spring system</h2><p><hr><p>
+I used Hooke's law as found in the lecture slides.
+<br>
+<br><a href='batch.html?system=cloth&texture=blank&blending=Normal&depthTest=true&transparent=true&sorting=true&size=full'>system=cloth&texture=blank&blending=Normal&depthTest=true&transparent=true&sorting=true&size=full</a>
+<br><img src='results/cloth1.png'>
+<br><img src='results/cloth2.png'>
+<br><img src='results/cloth3.png'>
+<br><br>
+
+<p><hr><p><a name='Your+system'></a><h2>Your system</h2><p><hr><p>
+System 1 (Balls bouncing down stairs): <br>
+This system consists of a staircase made of four axis boxes, with spheres bouncing down.
+See the images in the "Axis box" section.
+<br><br>
+System 2 (Three spouts of fire):<br>
+See the "Rendering" section for a description of how this system was rendered.
+<br><a href='batch.html?system=fire&texture=fire&blending=Normal&depthTest=true&transparent=true&sorting=true&size=full'>system=fire&texture=fire&blending=Normal&depthTest=true&transparent=true&sorting=true&size=full</a>
+
+<br><img src='results/fire.png'><p>
+
+<p><hr><p><a name='Rendering'></a><h2>Rendering</h2><p><hr><p>
+For System 2, after reaching a certain height, particles randomly change colors to imitate the flickering of flames. The particles also become smaller as time passes. The main color of each spout of fire depends on the x location.
+<br><br>
+For images, see the systems I created in the section above.
+
+<p><hr><p><a name='Art'></a><h2>Art</h2><p><hr><p>
+For the art contest, I submit my system 2 (3 spouts of colorful flickering fire).
+
+    </div>
+    </div>
+</body>
+</html>
