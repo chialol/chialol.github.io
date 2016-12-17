@@ -4,8 +4,12 @@ var tracks;
 var current;
 
 $(document).ready(function() {
+  instructions();
   initaudio();
 });
+function instructions() {
+    alert("Press \'a\' on the beat to receive a high score. Have fun! :)");
+}
 function initaudio(){
     current = 0;
     audio = $('#audio');
@@ -65,8 +69,10 @@ function runaudio(link, player){
     if (currentMusic == "LetItGo") {
         console.log("Lowered volume");
         audio[0].volume = 0.5;
+        STATE.SNOW.shouldSnow = true;
     } else {
         audio[0].volume = 1.0;
+        STATE.SNOW.shouldSnow = false;
     }
 
     audio[0].load();

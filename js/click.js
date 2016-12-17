@@ -13,7 +13,7 @@ var STATE = {
 		colors: [new THREE.Vector4 ( 1.0, 1.0, 1.0, 1.0 ), // white
 					new THREE.Vector4 ( 0.0, 0.67, 0.067, 1.0 ), // green
 					new THREE.Vector4 ( 0.1, 1.0, 0.1, 1.0 ), // light green
-					new THREE.Vector4 ( 0.35, 0.35, 1.0, 1.0 ), // blue
+					new THREE.Vector4 ( 0.37, 0.37, 1.0, 1.0 ), // blue
 					new THREE.Vector4 ( 0.36, 0.9, 1.0, 1.0 ), // light blue
 					new THREE.Vector4 ( 0.56, 0.753, 1.0, 1.0 ), // periwinkle blue
 					new THREE.Vector4 ( 0.027, 0.788, 0.776, 1.0 ), // blue-green
@@ -30,7 +30,7 @@ var STATE = {
 		colors: [new THREE.Vector4 ( 1.0, 1.0, 1.0, 1.0 ), // white
 					new THREE.Vector4 ( 0.0, 0.67, 0.067, 1.0 ), // green
 					new THREE.Vector4 ( 0.1, 1.0, 0.1, 1.0 ), // light green
-					new THREE.Vector4 ( 0.35, 0.35, 1.0, 1.0 ), // blue
+					new THREE.Vector4 ( 0.37, 0.37, 1.0, 1.0 ), // blue
 					new THREE.Vector4 ( 0.36, 0.9, 1.0, 1.0 ), // light blue
 					new THREE.Vector4 ( 0.56, 0.753, 1.0, 1.0 ), // periwinkle blue
 					new THREE.Vector4 ( 0.027, 0.788, 0.776, 1.0 ), // blue-green
@@ -62,7 +62,7 @@ var STATE = {
 		colors: [new THREE.Vector4 ( 1.0, 1.0, 1.0, 1.0 ), // white
 					new THREE.Vector4 ( 0.0, 0.67, 0.067, 1.0 ), // green
 					new THREE.Vector4 ( 0.1, 1.0, 0.1, 1.0 ), // light green
-					new THREE.Vector4 ( 0.35, 0.35, 1.0, 1.0 ), // blue
+					new THREE.Vector4 ( 0.37, 0.37, 1.0, 1.0 ), // blue
 					new THREE.Vector4 ( 0.36, 0.9, 1.0, 1.0 ), // light blue
 					new THREE.Vector4 ( 0.56, 0.753, 1.0, 1.0 ), // periwinkle blue
 					new THREE.Vector4 ( 0.027, 0.788, 0.776, 1.0 ), // blue-green
@@ -77,7 +77,7 @@ var STATE = {
 		colors: [new THREE.Vector4 ( 1.0, 1.0, 1.0, 1.0 ), // white
 					new THREE.Vector4 ( 0.0, 0.67, 0.067, 1.0 ), // green
 					new THREE.Vector4 ( 0.1, 1.0, 0.1, 1.0 ), // light green
-					new THREE.Vector4 ( 0.35, 0.35, 1.0, 1.0 ), // blue
+					new THREE.Vector4 ( 0.37, 0.37, 1.0, 1.0 ), // blue
 					new THREE.Vector4 ( 0.36, 0.9, 1.0, 1.0 ), // light blue
 					new THREE.Vector4 ( 0.56, 0.753, 1.0, 1.0 ), // periwinkle blue
 					new THREE.Vector4 ( 0.027, 0.788, 0.776, 1.0 ), // blue-green
@@ -93,7 +93,7 @@ var STATE = {
 		colors: [new THREE.Vector4 ( 1.0, 1.0, 1.0, 1.0 ), // white
 					new THREE.Vector4 ( 0.0, 0.67, 0.067, 1.0 ), // green
 					new THREE.Vector4 ( 0.1, 1.0, 0.1, 1.0 ), // light green
-					new THREE.Vector4 ( 0.35, 0.35, 1.0, 1.0 ), // blue
+					new THREE.Vector4 ( 0.37, 0.37, 1.0, 1.0 ), // blue
 					new THREE.Vector4 ( 0.36, 0.9, 1.0, 1.0 ), // light blue
 					new THREE.Vector4 ( 0.56, 0.753, 1.0, 1.0 ), // periwinkle blue
 					new THREE.Vector4 ( 0.027, 0.788, 0.776, 1.0 ), // blue-green
@@ -109,7 +109,7 @@ var STATE = {
 		colors: [new THREE.Vector4 ( 1.0, 1.0, 1.0, 1.0 ), // white
 					new THREE.Vector4 ( 0.0, 0.67, 0.067, 1.0 ), // green
 					new THREE.Vector4 ( 0.1, 1.0, 0.1, 1.0 ), // light green
-					new THREE.Vector4 ( 0.35, 0.35, 1.0, 1.0 ), // blue
+					new THREE.Vector4 ( 0.37, 0.37, 1.0, 1.0 ), // blue
 					new THREE.Vector4 ( 0.36, 0.9, 1.0, 1.0 ), // light blue
 					new THREE.Vector4 ( 0.56, 0.753, 1.0, 1.0 ), // periwinkle blue
 					new THREE.Vector4 ( 0.027, 0.788, 0.776, 1.0 ), // blue-green
@@ -125,7 +125,7 @@ var STATE = {
 		colors: [new THREE.Vector4 ( 1.0, 1.0, 1.0, 1.0 ), // white
 					new THREE.Vector4 ( 0.0, 0.67, 0.067, 1.0 ), // green
 					new THREE.Vector4 ( 0.1, 1.0, 0.1, 1.0 ), // light green
-					new THREE.Vector4 ( 0.35, 0.35, 1.0, 1.0 ), // blue
+					new THREE.Vector4 ( 0.37, 0.37, 1.0, 1.0 ), // blue
 					new THREE.Vector4 ( 0.36, 0.9, 1.0, 1.0 ), // light blue
 					new THREE.Vector4 ( 0.56, 0.753, 1.0, 1.0 ), // periwinkle blue
 					new THREE.Vector4 ( 0.027, 0.788, 0.776, 1.0 ), // blue-green
@@ -141,7 +141,7 @@ var STATE = {
 		colors: [new THREE.Vector4 ( 1.0, 1.0, 1.0, 1.0 ), // white
 					new THREE.Vector4 ( 0.0, 0.67, 0.067, 1.0 ), // green
 					new THREE.Vector4 ( 0.1, 1.0, 0.1, 1.0 ), // light green
-					new THREE.Vector4 ( 0.35, 0.35, 1.0, 1.0 ), // blue
+					new THREE.Vector4 ( 0.37, 0.37, 1.0, 1.0 ), // blue
 					new THREE.Vector4 ( 0.36, 0.9, 1.0, 1.0 ), // light blue
 					new THREE.Vector4 ( 0.56, 0.753, 1.0, 1.0 ), // periwinkle blue
 					new THREE.Vector4 ( 0.027, 0.788, 0.776, 1.0 ), // blue-green
@@ -167,7 +167,7 @@ var STATE = {
 		colors: [new THREE.Vector4 ( 1.0, 1.0, 1.0, 1.0 ), // white
 					new THREE.Vector4 ( 0.0, 0.67, 0.067, 1.0 ), // green
 					new THREE.Vector4 ( 0.1, 1.0, 0.1, 1.0 ), // light green
-					new THREE.Vector4 ( 0.35, 0.35, 1.0, 1.0 ), // blue
+					new THREE.Vector4 ( 0.37, 0.37, 1.0, 1.0 ), // blue
 					new THREE.Vector4 ( 0.36, 0.9, 1.0, 1.0 ), // light blue
 					new THREE.Vector4 ( 0.56, 0.753, 1.0, 1.0 ), // periwinkle blue
 					new THREE.Vector4 ( 0.027, 0.788, 0.776, 1.0 ), // blue-green
@@ -183,7 +183,7 @@ var STATE = {
 		colors: [new THREE.Vector4 ( 1.0, 1.0, 1.0, 1.0 ), // white
 					new THREE.Vector4 ( 0.0, 0.67, 0.067, 1.0 ), // green
 					new THREE.Vector4 ( 0.1, 1.0, 0.1, 1.0 ), // light green
-					new THREE.Vector4 ( 0.35, 0.35, 1.0, 1.0 ), // blue
+					new THREE.Vector4 ( 0.37, 0.37, 1.0, 1.0 ), // blue
 					new THREE.Vector4 ( 0.36, 0.9, 1.0, 1.0 ), // light blue
 					new THREE.Vector4 ( 0.56, 0.753, 1.0, 1.0 ), // periwinkle blue
 					new THREE.Vector4 ( 0.027, 0.788, 0.776, 1.0 ), // blue-green
@@ -199,7 +199,7 @@ var STATE = {
 		colors: [new THREE.Vector4 ( 1.0, 1.0, 1.0, 1.0 ), // white
 					new THREE.Vector4 ( 0.0, 0.67, 0.067, 1.0 ), // green
 					new THREE.Vector4 ( 0.1, 1.0, 0.1, 1.0 ), // light green
-					new THREE.Vector4 ( 0.35, 0.35, 1.0, 1.0 ), // blue
+					new THREE.Vector4 ( 0.37, 0.37, 1.0, 1.0 ), // blue
 					new THREE.Vector4 ( 0.36, 0.9, 1.0, 1.0 ), // light blue
 					new THREE.Vector4 ( 0.56, 0.753, 1.0, 1.0 ), // periwinkle blue
 					new THREE.Vector4 ( 0.027, 0.788, 0.776, 1.0 ), // blue-green
@@ -215,7 +215,7 @@ var STATE = {
 		colors: [new THREE.Vector4 ( 1.0, 1.0, 1.0, 1.0 ), // white
 					new THREE.Vector4 ( 0.0, 0.67, 0.067, 1.0 ), // green
 					new THREE.Vector4 ( 0.1, 1.0, 0.1, 1.0 ), // light green
-					new THREE.Vector4 ( 0.35, 0.35, 1.0, 1.0 ), // blue
+					new THREE.Vector4 ( 0.37, 0.37, 1.0, 1.0 ), // blue
 					new THREE.Vector4 ( 0.36, 0.9, 1.0, 1.0 ), // light blue
 					new THREE.Vector4 ( 0.56, 0.753, 1.0, 1.0 ), // periwinkle blue
 					new THREE.Vector4 ( 0.027, 0.788, 0.776, 1.0 ), // blue-green
@@ -231,7 +231,7 @@ var STATE = {
 		colors: [new THREE.Vector4 ( 1.0, 1.0, 1.0, 1.0 ), // white
 					new THREE.Vector4 ( 0.0, 0.67, 0.067, 1.0 ), // green
 					new THREE.Vector4 ( 0.1, 1.0, 0.1, 1.0 ), // light green
-					new THREE.Vector4 ( 0.35, 0.35, 1.0, 1.0 ), // blue
+					new THREE.Vector4 ( 0.37, 0.37, 1.0, 1.0 ), // blue
 					new THREE.Vector4 ( 0.36, 0.9, 1.0, 1.0 ), // light blue
 					new THREE.Vector4 ( 0.56, 0.753, 1.0, 1.0 ), // periwinkle blue
 					new THREE.Vector4 ( 0.027, 0.788, 0.776, 1.0 ), // blue-green
@@ -261,14 +261,14 @@ var STATE = {
 					new THREE.Vector4 ( 0.66, 0.52, 1.0, 1.0 ), // light purple
 					new THREE.Vector4 ( 0.839, 0.196, 0.831, 1.0 )]}, // magenta
 					
-	SNOW: {value: 100, initialized: 0}, 
+	SNOW: {value: 100, initialized: 0, shouldSnow: true}, 
 
 	MICKEY_MOUSE: {value: 21, time: 100, randPos: [new THREE.Vector3(0, 0, 0),
 		new THREE.Vector3(0, 0, 0), new THREE.Vector3(0, 0, 0)],
 		colors: [new THREE.Vector4 ( 1.0, 1.0, 1.0, 1.0 ), // white
 					new THREE.Vector4 ( 0.0, 0.67, 0.067, 1.0 ), // green
 					new THREE.Vector4 ( 0.1, 1.0, 0.1, 1.0 ), // light green
-					new THREE.Vector4 ( 0.35, 0.35, 1.0, 1.0 ), // blue
+					new THREE.Vector4 ( 0.37, 0.37, 1.0, 1.0 ), // blue
 					new THREE.Vector4 ( 0.36, 0.9, 1.0, 1.0 ), // light blue
 					new THREE.Vector4 ( 0.56, 0.753, 1.0, 1.0 ), // periwinkle blue
 					new THREE.Vector4 ( 0.027, 0.788, 0.776, 1.0 ), // blue-green
@@ -283,14 +283,7 @@ var STATE = {
 };
 var currentState = STATE.DEFAULT;
 
-var MUSIC = {
-	LET_IT_GO : {time: 0},
-	TANGLED : {time: 0},
-	LES_MIS: {time: 0},
-	KATY_PERRY: {time: 0},
-	BEETHOVEN: {time: 0},
-};
-var currentMusic = MUSIC.LET_IT_GO;
+var currentMusic = "LetItGo";
 
 var currentScore = 0;
 
@@ -411,7 +404,7 @@ initializeSaturnState = function() {
 		var randX = Math.random()-0.5;
 		var randY = Math.random()-0.5;
 		var randZ = Math.random()-0.5;
-		STATE.SATURN_START.randPos[i]  = new THREE.Vector3(100*randX, 30 + randY*50, 0);
+		STATE.SATURN_START.randPos[i]  = new THREE.Vector3(150*randX, 30 + randY*50, 0);
 	}
 	shuffle(STATE.SATURN_START.colors);
 	if (Math.random() < 0.3) {
@@ -430,11 +423,11 @@ initializeSphereState = function() {
 		var randX = Math.random()-0.5;
 		var randY = Math.random()-0.5;
 		var randZ = Math.random()-0.5;
-		STATE.SPHERE_NORMAL.randPos[i]  = new THREE.Vector3(100*randX, 80 + randY*10, 0);
+		STATE.SPHERE_NORMAL.randPos[i]  = new THREE.Vector3(150*randX, 80 + randY*10, 0);
 	}
 	shuffle(STATE.SPHERE_NORMAL.colors);
 	var rand = Math.random();
-	if (rand > 0.1) {
+	if (rand > 0.8) {
 		STATE.SPHERE_NORMAL.extraParticles = 1;
 		STATE.SPHERE_NORMAL.type = 4;
 	} else {
@@ -459,7 +452,7 @@ initializeHeartState = function() {
 		var randX = Math.random()-0.5;
 		var randY = Math.random()-0.5;
 		var randZ = Math.random()-0.5;
-		STATE.HEART_START.randPos[i]  = new THREE.Vector3(100*randX, 35 + randY*10, 0);
+		STATE.HEART_START.randPos[i]  = new THREE.Vector3(150*randX, 35 + randY*10, 0);
 	}
 	shuffle(STATE.HEART_START.colors);
 	STATE.HEART_START.type = Math.floor(Math.random()*2);
@@ -473,7 +466,7 @@ initializeSpiralState = function() {
 		var randY = Math.random()-0.5;
 		var randZ = Math.random()-0.5;
 		shuffle(STATE.SPIRAL.colors);
-		STATE.SPIRAL.randPos[i]  = new THREE.Vector3(100*randX, 35 + randY*10, 0);
+		STATE.SPIRAL.randPos[i]  = new THREE.Vector3(150*randX, 35 + randY*10, 0);
 	}
 	currentState = STATE.SPIRAL;
 }
@@ -484,7 +477,7 @@ initializeSudoSphereState = function() {
 		var randX = Math.random()-0.5;
 		var randY = Math.random()-0.5;
 		var randZ = Math.random()-0.5;
-		STATE.SUDO_SPHERE.randPos[i]  = new THREE.Vector3(100*randX, 35 + randY*10, 0);
+		STATE.SUDO_SPHERE.randPos[i]  = new THREE.Vector3(150*randX, 35 + randY*10, 0);
 	}
 	shuffle(STATE.SUDO_SPHERE.colors);
 	STATE.SUDO_SPHERE.type = Math.floor(Math.random()*2);
@@ -498,7 +491,7 @@ initializeTorusState = function() {
 		var randY = Math.random()-0.5;
 		var randZ = Math.random()-0.5;
 		shuffle(STATE.TORUS_START.colors);
-		STATE.TORUS_START.randPos[i]  = new THREE.Vector3(100*randX, 35 + randY*10, 0);
+		STATE.TORUS_START.randPos[i]  = new THREE.Vector3(150*randX, 35 + randY*10, 0);
 	}
 	currentState = STATE.TORUS_START;
 }
@@ -510,7 +503,7 @@ initializeMBState = function() {
 		var randY = Math.random()-0.5;
 		var randZ = Math.random()-0.5;
 		shuffle(STATE.MULTI_BLAST.colors);
-		STATE.MULTI_BLAST.randPos[i]  = new THREE.Vector3(100*randX, 35 + randY*10, 0);
+		STATE.MULTI_BLAST.randPos[i]  = new THREE.Vector3(150*randX, 35 + randY*10, 0);
 	}
 	STATE.MULTI_BLAST.randPos[1].x = 0;
 	STATE.MULTI_BLAST.randPos[1].y = 0;
@@ -525,7 +518,7 @@ initializeMovingState = function() {
 		var randY = Math.random()-0.5;
 		var randZ = Math.random()-0.5;
 		shuffle(STATE.MOVE_AROUND.colors);
-		STATE.MOVE_AROUND.randPos[i]  = new THREE.Vector3(100*randX, 35 + randY*10, 0);
+		STATE.MOVE_AROUND.randPos[i]  = new THREE.Vector3(150*randX, 35 + randY*10, 0);
 	}
 	STATE.MOVE_AROUND.randPos[1].x = 0;
 	STATE.MOVE_AROUND.randPos[1].y = 0;
@@ -542,7 +535,7 @@ initializeMickeyState = function() {
 		var randX = Math.random()-0.5;
 		var randY = Math.random()-0.5;
 		var randZ = Math.random()-0.5;
-		STATE.MICKEY_MOUSE.randPos[i]  = new THREE.Vector3(100*randX, 35 + randY*10, 0);
+		STATE.MICKEY_MOUSE.randPos[i]  = new THREE.Vector3(150*randX, 35 + randY*10, 0);
 	}
 	shuffle(STATE.MICKEY_MOUSE.colors);
 	STATE.MICKEY_MOUSE.randPos[1].x = 0;
@@ -563,7 +556,7 @@ initializeTrailState = function() {
 		var randY = Math.random()-0.5;
 		var randZ = Math.random()-0.5;
 		
-		STATE.TRAIL1.randPos[i]  = new THREE.Vector3(100*randX, 30 + randY*30, 0);
+		STATE.TRAIL1.randPos[i]  = new THREE.Vector3(150*randX, 30 + randY*30, 0);
 	}
 	for (var i = 1; i < 60; i++) {
 		// for the velocity
@@ -592,7 +585,7 @@ initializePictureState = function() {
 		var randY = Math.random()-0.5;
 		var randZ = Math.random()-0.5;
 		shuffle(STATE.PICTURE.colors);
-		STATE.PICTURE.randPos[i]  = new THREE.Vector3(100*randX, 80*randY + 40, 10*randZ);
+		STATE.PICTURE.randPos[i]  = new THREE.Vector3(150*randX, 80*randY + 40, 10*randZ);
 	}
 	STATE.PICTURE.index = 0;
 	currentState = STATE.PICTURE;
@@ -625,7 +618,7 @@ initializeSphereDrunk = function() {
 		var randX = Math.random()-0.5;
 		var randY = Math.random()-0.5;
 		var randZ = Math.random()-0.5;
-		STATE.SPHERE_DRUNK.randPos[i]  = new THREE.Vector3(100*randX, 50 + randY*10, 0);
+		STATE.SPHERE_DRUNK.randPos[i]  = new THREE.Vector3(150*randX, 50 + randY*10, 0);
 	}
 	shuffle(STATE.SPHERE_DRUNK.colors);
 	currentState = STATE.SPHERE_DRUNK;
@@ -642,7 +635,7 @@ initializeGirandola = function() {
 		var randX = Math.random()-0.5;
 		var randY = Math.random()-0.5;
 		var randZ = Math.random()-0.5;
-		STATE.GIRANDOLA.randPos[i]  = new THREE.Vector3(30*randX, 50 + randY*20, randZ*30);
+		STATE.GIRANDOLA.randPos[i]  = new THREE.Vector3(150*randX, 50 + randY*20, randZ*30);
 	}
 	shuffle(STATE.GIRANDOLA.colors);
 	STATE.GIRANDOLA.counter = 100;
@@ -658,7 +651,7 @@ initializeTree = function() {
 		var randX = Math.random()-0.5;
 		var randY = Math.random()-0.5;
 		var randZ = Math.random()-0.5;
-		STATE.TREE.randPos[i]  = new THREE.Vector3(30*randX, 50 + randY*20, randZ*30);
+		STATE.TREE.randPos[i]  = new THREE.Vector3(150*randX, 50 + randY*20, randZ*30);
 	}
 	shuffle(STATE.TREE.colors);
 	STATE.TREE.counter = 0;
@@ -673,7 +666,7 @@ initializeTreeBall = function() {
 		var randX = Math.random()-0.5;
 		var randY = Math.random()-0.5;
 		var randZ = Math.random()-0.5;
-		STATE.TREE_BALL.randPos[i]  = new THREE.Vector3(30*randX, 20 + randY*40, randZ*30);
+		STATE.TREE_BALL.randPos[i]  = new THREE.Vector3(150*randX, 20 + randY*40, randZ*30);
 	}
 	shuffle(STATE.TREE_BALL.colors);
 	STATE.TREE_BALL.counter = 0;
@@ -689,7 +682,7 @@ initializeSpinner = function() {
 		var randX = Math.random()-0.5;
 		var randY = Math.random()-0.5;
 		var randZ = Math.random()-0.5;
-		STATE.SPINNER.randPos[i]  = new THREE.Vector3(30*randX, 20 + randY*40, randZ*30);
+		STATE.SPINNER.randPos[i]  = new THREE.Vector3(150*randX, 20 + randY*40, randZ*30);
 	}
 	shuffle(STATE.SPINNER.colors);
 	STATE.SPINNER.counter = 0;
@@ -704,7 +697,7 @@ initializeSpider = function() {
 		var randX = Math.random()-0.5;
 		var randY = Math.random()-0.5;
 		var randZ = Math.random()-0.5;
-		STATE.SPIDER.randPos[i]  = new THREE.Vector3(100*randX, 80*randY + 40, 10*randZ);
+		STATE.SPIDER.randPos[i]  = new THREE.Vector3(150*randX, 80*randY + 40, 10*randZ);
 	}
 	shuffle(STATE.SPIDER.colors);
 	STATE.SPIDER.index = 0;
@@ -853,57 +846,99 @@ $(document).keypress(function(e) {
 		// }
 		//r = 0.73;
 		newMaterial = "whiteSpark";
+
+		var igniteTime = 37.85;
+		var igniteFlag = true;
+		var igniteTime2 = 187.5;
+		var igniteFlag2 = true;
+		var heartTime = 110.7;
+		var heartFlag = true;
+		var moonTime = 166.5;
+		var moonFlag = 0;
+
+		var spiralTime = 162.65;
+		var spiralFlag = true;
+		var howlingTime = 30.6;
+		var howlingFlag = true;
+
+		if (currentMusic == "KatyPerry" && Math.abs(music.currentTime - igniteTime) < .4 && igniteFlag) {
+			r = 0.01;
+			igniteFlag = false;
+		} else if (currentMusic == "KatyPerry" && Math.abs(music.currentTime - igniteTime2) < .4 && igniteFlag2) {
+			r = 0.01;
+			igniteFlag2 = false;
+		} else if (currentMusic == "KatyPerry" && Math.abs(music.currentTime - heartTime) < .4 && heartFlag) {
+			r = 0.34;
+			heartFlag = true;
+		} else if (currentMusic == "KatyPerry" && Math.abs(music.currentTime - moonTime) < .7 && moonFlag < 2) {
+			r = 0.14;
+			moonFlag++;
+		} else if (currentMusic == "LetItGo" && Math.abs(music.currentTime - spiralTime) < .5 && spiralFlag) {
+			r = 0.52;
+			spiralFlag = false;
+		} else if (currentMusic == "KatyPerry" && Math.abs(music.currentTime - howlingTime) < .5 && howlingFlag) {
+			r = 0.01;
+			howlingFlag = false;
+		} else {
+		}
+
+
 		if (r < 0.05) {
 			playFirespoutSound();
 			initializeFireState();
-		} else if (r < 0.1) {
+		} else if (r < 0.15) {
 			newMaterial = "whiteSpark";
 			playBangcrackleSound();
 			initializeSaturnState();
-		} else if (r < 0.15) {
+		} else if (r < 0.2) {
 			initializeMBState();
 			playBangcrackleSound();
-		} else if (r < 0.2) {
+		} else if (r < 0.3) {
 			newMaterial = "whiteSpark";
 			playFireworkSound();
 			initializeSphereState();
-		} else if (r < 0.25) {
+		} else if (r < 0.35) {
 			newMaterial = "whiteSpark";
 			playBangcrackleSound();
 			initializeHeartState();
-		} else if (r < 0.3) {
+		} else if (r < 0.42) {
 			playBangcrackleSound();
 			initializeSudoSphereState();
-		} else if (r < 0.35) {
+		} else if (r < 0.47) {
 			playFireworkSound();
 			initializeMovingState();
-		} else if (r < 0.4) {
+		} else if (r < 0.53) {
 			playFireworkSound();
 			initializeSpiralState();
-		} else if (r < 0.45) {
+		} else if (r < 0.56) {
 			newMaterial = "whiteSpark";
-			playBangcrackleSound();
-			initializePictureState();
-		} else if (r < 0.5) {
+			if (currentMusic == "LetItGo") {
+				playBangcrackleSound();
+				initializePictureState();
+			} else {
+				playBangcrackleSound();
+				initializeSaturnState();
+			}
+		} else if (r < 0.59) {
 			newMaterial = "whiteSpark";
 			playBangcrackleSound();
 			initializeSphereDrunk();
-		} else if (r < 0.6) {
+		} else if (r < 0.64) {
 			playFireworkSound();
 			initializeTreeBall();
-		} else if (r < 0.65) {
+		} else if (r < 0.70) {
 			playFireworkSound();
 			initializeTree();
-		} else if (r < 0.7) {
+		} else if (r < 0.77) {
 			playFireworkSound();
 			initializeSpinner();
-		} else if (r < 0.75) {
+		} else if (r < 0.83) {
 			playFireworkSound();
 			initializeSpider();
-		} else if (r < 0.8) {
+		} else if (r < 0.88) {
 			initializeTorusState();
 			playFireworkSound();
-		} else if (r < 0.85) {
+		} else if (r < 0.915 && (currentMusic == "LetItGo" || currentMusic == "Tangled")) {
 			initializeMickeyState();
 			playFireworkSound();
 		} else {
@@ -922,20 +957,15 @@ $(document).keypress(function(e) {
 			initializeSaturnState();
     	}
     } else if (e.which == 50) {
-    	if (Math.random() < 0.5) {
-    		initializeMBState();
-			playBangcrackleSound();
-    	} else {
-    		playFireworkSound();
-			initializeSphereState();
-    	}
+		playBangcrackleSound();
+		initializeSudoSphereState();
     } else if (e.which == 51) {
     	if (Math.random() < 0.5) {
     		playBangcrackleSound();
-			initializeHeartState();
+			initializeSphereDrunk();
     	} else {
-    		playBangcrackleSound();
-			initializeSudoSphereState();
+    		initializeMBState();
+			playBangcrackleSound();
     	}
     } else if (e.which == 52) {
     	if (Math.random() < 0.5) {
@@ -946,12 +976,12 @@ $(document).keypress(function(e) {
 			initializeSpiralState();
     	}
     } else if (e.which == 53) {
-    	if (Math.random() < 0.5) {
+    	if (Math.random() < 0.5 && currentMusic == "LetItGo") {
     		playBangcrackleSound();
 			initializePictureState();
     	} else {
-    		playBangcrackleSound();
-			initializeSphereDrunk();
+			playBangcrackleSound();
+			initializeHeartState();
     	}
     } else if (e.which == 54) {
     	if (Math.random() < 0.5) {
@@ -970,15 +1000,18 @@ $(document).keypress(function(e) {
 			initializeSpider();
     	}
     } else if (e.which == 56) {
-    	if (Math.random() < 0.5) {
-    		initializeTorusState();
+    	if (Math.random() < 0.5 && (currentMusic == "LetItGo" || currentMusic == "Tangled")) {
+    		initializeMickeyState();
 			playFireworkSound();
     	} else {
-    		initializeMickeyState();
+			initializeTorusState();
 			playFireworkSound();
     	}
     } else if (e.which == 57) {
     	playFireworkSound();
 		initializeTrailState();
+    } else if (e.which == 48) {
+    	playFireworkSound();
+		initializeSphereState();
     }
 });

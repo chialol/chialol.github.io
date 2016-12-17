@@ -727,7 +727,7 @@ FireUpdater.prototype.updatePositions = function ( particleAttributes, alive, de
 		} else if (style == STATE.SPINNER2.value) {
 			doDefault = true;
 		} else if (style == STATE.SPIDER.value) {
-			if (Math.random() < 0.001) {
+			if (Math.random() < 0.0005) {
 				killPartilce(i, particleAttributes, alive);
 				continue;
 			}
@@ -1202,10 +1202,18 @@ FireUpdater.prototype.updateColors = function ( particleAttributes, alive, delta
         } else if (style == STATE.SPIRAL.value) {
         } else if (style == STATE.PICTURE.value) {
            // c = new THREE.Vector4 ( 1.0, 1.0, 1.0, 1.0 );
-            //setElement( i, colors, c );
+            //sestElement( i, colors, c );
         } else if (style == STATE.SPINNER2.value) {
 			
 		} else if (style == STATE.MICKEY_MOUSE.value) {
+        } else if (style == STATE.SNOW.value) {
+            c = getElement(i, colors);
+            if (STATE.SNOW.shouldSnow) {
+                c.w = 1.0;
+            } else {
+                c.w = 0.0;
+            }
+            setElement( i, colors, c );
         }
         
         // ----------- STUDENT CODE END ------------
@@ -1232,31 +1240,31 @@ FireUpdater.prototype.updateSizes= function ( particleAttributes, alive, delta_t
 			var s = getElement( i, sizes ) / 1.01;
 			setElement( i, sizes, s );
 		} else if (style == STATE.SPHERE_NORMAL.value) {
-            var s = getElement( i, sizes ) / 1.01;
-            setElement( i, sizes, s );
-        } else if (style == STATE.HEART_START.value) {
-            var s = getElement( i, sizes ) / 1.01;
-            setElement( i, sizes, s );
-        } else if (style == STATE.SUDO_SPHERE.value) {
             //var s = getElement( i, sizes ) / 1.01;
             //setElement( i, sizes, s );
+        } else if (style == STATE.HEART_START.value) {
+            var s = getElement( i, sizes ) / 1.005;
+            setElement( i, sizes, s );
+        } else if (style == STATE.SUDO_SPHERE.value) {
+            var s = getElement( i, sizes ) / 1.005;
+            setElement( i, sizes, s );
         } else if (style == STATE.MULTI_BLAST.value) {
-            var s = getElement( i, sizes ) / 1.01;
+            var s = getElement( i, sizes ) / 1.005;
             setElement( i, sizes, s );
         } else if (style == STATE.MOVE_AROUND.value) {
-            var s = getElement( i, sizes ) / 1.01;
+            var s = getElement( i, sizes ) / 1.001;
             setElement( i, sizes, s );
         } else if (style == STATE.TORUS_START.value) {
-            var s = getElement( i, sizes ) / 1.01;
+            var s = getElement( i, sizes ) / 1.005;
             setElement( i, sizes, s );
         } else if (style == STATE.SPIRAL.value) {
-            var s = getElement( i, sizes ) / 1.01;
+            var s = getElement( i, sizes ) / 1.005;
             setElement( i, sizes, s );
         } else if (style == STATE.PICTURE.value) {
-            var s = getElement( i, sizes ) / 1.01;
+            var s = getElement( i, sizes ) / 1.005;
             setElement( i, sizes, s );
         } else if (style == STATE.GROUND_SHOOTS.value) {
-            var s = getElement( i, sizes ) / 1.01;
+            var s = getElement( i, sizes ) / 1.005;
             setElement( i, sizes, s );
         } else if (style == STATE.TRAIL1.value) {
             var s = getElement( i, sizes ) / (1 + Math.random()*0.02);
@@ -1265,13 +1273,13 @@ FireUpdater.prototype.updateSizes= function ( particleAttributes, alive, delta_t
             var s = getElement( i, sizes ) / (1 + Math.random()*0.02);
             setElement( i, sizes, s );
         } else if (style == STATE.SPINNER.value) {
-			var s = getElement( i, sizes ) / (1 + Math.random()*0.01);
+			var s = getElement( i, sizes ) / (1 + Math.random()*0.005);
             setElement( i, sizes, s );
 		} else if (style == STATE.SPINNER2.value) {
-			var s = getElement( i, sizes ) / (1 + Math.random()*0.03);
+			var s = getElement( i, sizes ) / (1 + Math.random()*0.02);
             setElement( i, sizes, s );
 		} else if (style == STATE.SPIDER.value) {
-            var s = getElement( i, sizes ) / (1 + Math.random()*0.02);;
+            var s = getElement( i, sizes ) / (1 + Math.random()*0.01);;
             setElement( i, sizes, s );
         } else if (style == STATE.MICKEY_MOUSE.value) {
             var s = getElement( i, sizes ) / 1.001;
@@ -1511,7 +1519,7 @@ FireUpdater.prototype.updateFireworkStyles= function ( particleAttributes, alive
 				}
 				setElement( i, colors, c);
                 setElement( i, velocities, vel );
-				setElement(i, sizes, 10.0);
+                setElement(i, sizes, 8.0);
             } else if (currentState == STATE.HEART_START) {
                 var pos = STATE.HEART_START.randPos[0].clone();
                 setElement( i, positions, pos );
@@ -1743,6 +1751,7 @@ FireUpdater.prototype.updateFireworkStyles= function ( particleAttributes, alive
                 setElement( i, velocities, vel );
                 var c = STATE.SPHERE_DRUNK.colors[Math.floor(Math.random()*5)];
                 setElement( i, colors, c );
+                setElement( i, sizes, 9.0);
             } else if (currentState == STATE.GIRANDOLA) {
 				setElement( i, sizes, 7 );
 				setElement( i, fireworkStyles, STATE.GIRANDOLA.value);
@@ -1802,7 +1811,7 @@ FireUpdater.prototype.updateFireworkStyles= function ( particleAttributes, alive
                 setElement( i, colors, c );
 				setElement( i, lifetimes, 1.5);
 			} else if (currentState == STATE.SPINNER) {
-				setElement( i, sizes, 7 );
+				setElement( i, sizes, 8.0 );
 				setElement( i, fireworkStyles, STATE.SPINNER.value);
 				var pos = STATE.SPINNER.randPos[0].clone();
 				var randVec = new THREE.Vector3(Math.random(), Math.random(), Math.random()).multiplyScalar(0.5);
@@ -1812,7 +1821,7 @@ FireUpdater.prototype.updateFireworkStyles= function ( particleAttributes, alive
 				var c = STATE.SPINNER.colors[0].clone();
 				
                 setElement( i, colors, c );
-				setElement( i, lifetimes, 1.8);
+				setElement( i, lifetimes, 1.4);
 			} else if (currentState == STATE.SPIDER) {
 				setElement( i, sizes, 5 );
 				setElement( i, fireworkStyles, STATE.SPIDER.value);
@@ -1831,7 +1840,7 @@ FireUpdater.prototype.updateFireworkStyles= function ( particleAttributes, alive
 				c = STATE.SPIDER.colors[Math.floor(Math.random()*2)];
                 setElement( i, colors, c );
 				setElement( i, velocities, vel );
-				setElement( i, lifetimes, 2.0 + Math.random() * 0.5 );
+				setElement( i, lifetimes, 2.8 + Math.random() * 0.5 );
 			} 
 		} else {
 			return;
